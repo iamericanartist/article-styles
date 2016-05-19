@@ -1,0 +1,83 @@
+body {
+	/* background-color: #999; */
+	background: linear-gradient(to bottom, #777, lightgrey);
+	font-size: 20px;
+	box-sizing: border-box;
+}
+h1 {
+	background-color: #222;
+	padding: 10px 2.5%;
+  margin: 25px 2.5%;
+	color: teal;
+}
+/* Individual ID Styling */
+#article1 {
+	background-color: rgba(50, 50, 50, .7);
+	font-family: tahoma, sans-serif;
+	font-size: 1.2rem;
+	color: #987987;
+  line-height: 130%;
+  padding:10px;
+  margin-bottom: 10px;
+	border: 1px dotted orange;
+	border-radius: 20px 50px;
+}
+#article2 {
+	background-color: rgb(150, 250, 50);
+	font-family: arial, sans-serif;
+	font-size: 1rem;
+	color: #abc;
+  line-height: 100%;
+  padding:15px;
+  margin-bottom: 10px;
+	border: 2px solid orange;
+	border-radius: 25%;
+}
+#article3 {
+	background-color: #39C;
+	font-family: Verdana;
+	font-size: 24px;
+	color: blue;
+  line-height: 80%;
+  padding:12px;
+  margin-bottom: 10px;
+	border: 1px dashed yellow;
+	border-radius: 3rem;
+}
+#article4 {
+	background-color: #a7b3f1;
+	font-family: Times, serif;
+	font-size: 1.2em;
+	color: #88bb12;
+  line-height: 130%;
+  padding:35px;
+  margin-bottom: 10px;
+	/*border: 2px solid orange;*/
+	border-radius: 0 50px 10% 50px;
+}
+#article5 {
+	background-color: thistle;
+	font-family: helvetica, sans-serif;
+	font-size: 25px;
+	color: black;
+  line-height: 145%;
+  padding:2px;
+  margin-bottom: 10px;
+	border: 3px solid rgba(222 111 23, .4);
+	border-radius: 40px 10px 20px;
+}
+
+/* for heading sizing and overall heading unity */
+h3 {
+	color: black;
+	font-size: 2rem;
+	margin: 2rem;
+}
+/* for overall article centering */
+.article {
+	margin: auto;
+	width: 80%
+}
+
+/* alternate font syntax combines size, line height, family */
+/* font: 18px/100% Tahoma, Helvetica, sans-serif; */
